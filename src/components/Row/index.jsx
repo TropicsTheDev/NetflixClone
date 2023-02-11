@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { map } from "rxjs/operators";
-import { requests } from "../../../utils/http";
-import useObservable from "../../../utils/useObservable";
+import { requests } from "../../../src/utils/http";
+import useObservable from "../../../src/utils/useObservable";
 import "./Row.css";
 
 function Row(props) {
@@ -11,7 +11,6 @@ function Row(props) {
   const imgBaseUrl = "https://image.tmdb.org/t/p/original/";
 
   useEffect(() => {
-    console.log(Object.keys(requests), fetchType, requests[fetchType]);
     const sub = useObservable(
       requests[fetchType].pipe(map(({ response }) => response.results)),
       setMovies

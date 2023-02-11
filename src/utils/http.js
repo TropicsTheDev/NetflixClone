@@ -4,8 +4,6 @@ import { map } from "rxjs/operators";
 const apiKey = import.meta.env.VITE_API_KEY;
 const baseUrl = "https://api.themoviedb.org/3";
 
-console.log(apiKey);
-
 export const requests = {
   fetchTrends$: ajax(
     `${baseUrl}/trending/all/week?api_key=${apiKey}&language=en-US`

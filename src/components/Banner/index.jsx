@@ -1,13 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { map } from "rxjs/operators";
-import { requests } from "../../../utils/http";
-import useObservable from "../../../utils/useObservable";
+import { requests } from "../../../src/utils/http";
+import useObservable from "../../../src/utils/useObservable";
 
 import "./Banner.css";
 
 function Banner(props) {
   const [movie, setMovie] = useState({});
-  console.log({ movie });
 
   function truncate(string, numberOfCharacters) {
     return string?.length > numberOfCharacters
