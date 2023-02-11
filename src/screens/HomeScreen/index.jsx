@@ -3,7 +3,6 @@ import { Nav, Banner, Row } from "../../components";
 import "./HomeScreen.css";
 
 function HomeScreen(props) {
-  console.log({ props })
   return (
     <div>
       <Nav />
