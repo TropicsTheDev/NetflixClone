@@ -9,7 +9,7 @@ function LoginScreen() {
       <div className="loginScreen__background">
         <img
           className="loginScreen__logo"
-          src="https://assets.stickpng.com/images/580b57fcd9996e24bc42c529"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4My0B4Y37nS5v9H8j89NgrrRkzZUX43Glw09xT3imbA&usqp=CAU&ec=48665699"
           alt="logo"
         />
         <button className="loginScreen__button" onClick={() => setSignIn(true)}>
