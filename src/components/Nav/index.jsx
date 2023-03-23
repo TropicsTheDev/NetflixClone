@@ -29,13 +29,13 @@ export default function Nav() {
         <img
           onClick={() => navigate("/")}
           className="nav__logo"
-          src="https://cdn.cookielaw.org/logos/dd6b162f-1a32-456a-9cfe-897231c7763c/4345ea78-053c-46d2-b11e-09adaef973dc/Netflix_Logo_PMS.png"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4My0B4Y37nS5v9H8j89NgrrRkzZUX43Glw09xT3imbA&usqp=CAU&ec=48665699"
           alt="logo"
         />
         <img
           onClick={() => navigate("/profile")}
           className="nav__avatar"
-          src="https://i.pinimg.com/736x/db/70/dc/db70dc468af8c93749d1f587d74dcb08.jpg"
+          src="https://cdn.pixabay.com/photo/2021/07/02/04/48/user-6380868_1280.png"
           alt="pfp"
         />
       </div>

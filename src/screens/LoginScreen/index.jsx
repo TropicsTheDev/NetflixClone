@@ -1,6 +1,6 @@
 import { useState } from "react";
 import SignupScreen from "../SignupScreen";
-import './LoginScreen.css';
+import "./LoginScreen.css";
 
 function LoginScreen() {
   const [signIn, setSignIn] = useState(false);
@@ -22,16 +22,20 @@ function LoginScreen() {
           <SignupScreen />
         ) : (
           <>
-            <h1>Unlimited films, TV programmes and more!</h1>
-            <h2>Watch anywhere. Cancel at any time</h2>
+            <h1>Thanks for checking out my movie gallary!</h1>
+            <h2>
+              This App is <strong>NOT A ASSOCIATED WITH NETFLIX</strong>
+            </h2>
             <h3>
-              Ready to watch? Enter your email tp create or restart your
-              membership
+              Ready to check it out? Click "Get started", enter an email &
+              password, and click the sign up button.
+              <strong>
+                Please do not use a password that is used for another platform
+              </strong>
             </h3>
 
             <div className="loginScreen__input">
               <form action="">
-                <input type="email" name="email" placeholder="Email address" />
                 <button
                   className="loginScreen__getStarted"
                   onClick={() => setSignIn(true)}

@@ -63,7 +63,7 @@
   padding: 10px 20px;
   font-size: 1rem;
   color: #fff;
-  background-color: #e50914;
+  background-color: var(--brandBlue);
   border: none;
   cursor: pointer;
 }
@@ -85,7 +85,7 @@
   padding: 16px 20px;
   font-size: 1rem;
   color: #fff;
-  background-color: #e50914;
+  background-color: var(--brandBlue);
   border: none;
   font-weight: 600;
   cursor: pointer;

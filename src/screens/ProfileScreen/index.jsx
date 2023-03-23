@@ -20,7 +20,7 @@ function ProfileScreen(props) {
         <h1>Edit Profile</h1>
         <div className="profileScreen__info">
           <img
-            src="https://i.pinimg.com/736x/db/70/dc/db70dc468af8c93749d1f587d74dcb08.jpg"
+            src="https://cdn.pixabay.com/photo/2021/07/02/04/48/user-6380868_1280.png"
             alt="avatar"
           />
           <div className="profileScreen__details">
